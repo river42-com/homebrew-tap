@@ -1,6 +1,6 @@
 cask "inode" do
-  version "0.3.2,6"
-  sha256 "55af22d50834f9ee1674850d0843038fc93e6017afcdef255a016dda73f2371a"
+  version "0.4.0,7"
+  sha256 "7ee8dbfe9404f88579610884a3f926c64ecb83af801891d128ee0d86d000226a"
 
   url "https://inode.pro/updates/Inode-#{version.csv.first}.zip"
   name "Inode"
@@ -18,11 +18,11 @@ cask "inode" do
 
   app "Inode.app"
 
-  uninstall quit: "at.sysinit.inode"
+  uninstall quit: "com.river42.inode"
 
   zap trash: [
-    "~/Library/Caches/at.sysinit.inode",
-    "~/Library/HTTPStorages/at.sysinit.inode",
-    "~/Library/Preferences/at.sysinit.inode.plist",
+    "~/Library/Caches/com.river42.inode",
+    "~/Library/HTTPStorages/com.river42.inode",
+    "~/Library/Preferences/com.river42.inode.plist",
   ]
 end
