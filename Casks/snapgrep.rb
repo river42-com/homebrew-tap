@@ -1,6 +1,6 @@
 cask "snapgrep" do
-  version "0.22.1,51"
-  sha256 "0a3b98696e376c31285636ee03b072bae4e18479439b7d59c0c07df441d2e244"
+  version "0.22.2,52"
+  sha256 "7a1d0a7fe168d6fda226956bb3570d67f2486f714c3ccbcc28328f6a4e0e03ac"
 
   url "https://snapgrep.com/updates/SnapGrep-#{version.csv.first}.zip"
   name "SnapGrep"
