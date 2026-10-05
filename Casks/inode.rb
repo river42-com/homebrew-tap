@@ -1,6 +1,6 @@
 cask "inode" do
-  version "0.13.0,31"
-  sha256 "8cb8463fd0f2f93df4ea4385989dbf3907f41b8fb9b4b4b54f8f1d9db96bcad9"
+  version "0.14.0,32"
+  sha256 "721c1c6cede9993fb9a904bb38512a4d98638b6181ac489a7b4c7162f5fbc655"
 
   url "https://inode.pro/updates/Inode-#{version.csv.first}.zip"
   name "Inode"
