@@ -1,6 +1,6 @@
 cask "ccshot" do
-  version "0.8.0,10"
-  sha256 "32851b50fefeca496926093006332809d10296d06638817a6ee1aa2cd07eee8a"
+  version "0.9.0,11"
+  sha256 "4a148e34c83230a7c227174f5d44b900399a59ff4b341c977ddfe00420e0a5a3"
 
   url "https://ccshot.net/updates/ccshot-#{version.csv.first}.zip"
   name "ccshot"
